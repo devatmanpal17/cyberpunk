@@ -1,0 +1,65 @@
+/* ═══════════ HERO ═══════════ */
+.cp-hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 56px 52px 50px;
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.cp-hero-left {
+  flex: 1;
+  padding-right: 20px;
+  padding-top: 6px;
+}
+
+.cp-hero-h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 1.12;
+  color: #ffffff;
+  margin-bottom: 20px;
+  letter-spacing: -0.2px;
+}
+
+.cp-hero-body {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13.5px;
+  color: #bababaff;
+  line-height: 1.68;
+  max-width: 340px;
+  margin-bottom: 34px;
+  font-weight: 400;
+}
+
+.cp-stats { display: flex; gap: 36px; }
+
+.cp-stat-val {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  background: linear-gradient(160deg, #cc1100 0%, #ff6600 55%, #ffaa00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cp-stat-lbl {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 10.5px;
+  color: #bcbabaff;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 3px;
+  display: block;
+  font-weight: 500;
+}
+
+.cp-hero-right {
+  flex: 0 0 310px;
+  height: 330px;
+}
