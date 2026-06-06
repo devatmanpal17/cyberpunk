@@ -7,7 +7,7 @@ export default function UnveilSection() {
     <section className="flex flex-col md:flex-row items-center justify-between p-5 sm:p-8 md:p-12 lg:p-16 bg-transparent relative overflow-hidden min-h-[450px]">
       {/* Left — large character image */}
       <div className="w-full md:w-2/5 lg:w-5/12 flex-none flex justify-center md:justify-start mb-8 md:mb-0">
-        <img src={unveilCharacter} alt="Cyberpunk Character" className="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[400px] h-auto object-contain mix-blend-lighten" />
+        <img src={unveilCharacter} alt="Cyberpunk Character" className="w-full max-w-[320px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[480px] h-auto object-contain mix-blend-lighten" />
       </div>
 
       {/* Right — text content */}
