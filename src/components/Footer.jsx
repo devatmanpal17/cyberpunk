@@ -1,65 +1,63 @@
-import "../styles/footer.css";
-
 function Footer() {
 
     return(
-        <footer className="footer">
-            <div className="footer-top">
-                <div className="footer-left">
-                    <h2>Cyber.AI - Cyber Punk Website</h2>
-                    <p>
+        <footer className="bg-black text-white font-sans px-5 sm:px-10 lg:px-20 py-16 w-full">
+            <div className="flex flex-col md:flex-row  gap-30 justify-evenly pb-16">
+                <div className="max-w-[320px]">
+                    <h2 className="text-[22px] font-bold mb-5">Cyber.AI - Cyber Punk Website</h2>
+                    <p className="text-[14px] text-gray-300 leading-7">
                         Explore the high-tech,low life world where the lines between humanity
                     </p>
                 </div>
 
 
 
-                <div class="footer-links">
-                    <h3>Information</h3>
-                    <a href="#">Press center</a>
-                    <a href="#">Our Blog</a>
-                    <a href="#">Terms and Condition</a>
+                <div className="flex flex-col gap-3">
+                    <h3 className="text-[14px] font-semibold ">Information</h3>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Press center</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Our Blog</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition min-w-40">Terms and Condition</a>
                 </div>
 
 
 
-                <div class="footer-links">
+                <div className="flex flex-col gap-3 ">
                     <h3>Menu</h3>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Blog</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">About</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Services</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Blog</a>
                 </div>
 
 
-                <div class="footer-links">
+                <div className="flex flex-col gap-3">
                     <h3>Contact</h3>
-                    <a href="#">Phone : +123 456 789</a>
-                    <a href="#">Email: @example.com</a>
-                    <a href="#">Address Line 01</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Phone : +123 456 789</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Email: @example.com</a>
+                    <a href="#" className="text-gray-300 hover:text-orange-500 transition">Address Line 01</a>
                 </div>
             </div>
 
 
-            <div className="footer-bottom">
-                <div className="footer-bottom-left">
-                    <p>&#169; Cyber.Game-Ketan Mulani 2026.All rights reserved</p>
+            <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8 border-t border-gray-800 pt-8 ">
+                <div className="text-[14px]">
+                    <p className="md:pl-15">&#169; Cyber.Game-Ketan Mulani 2026.All rights reserved</p>
                 </div>
-                <div className="footer-policy">
-                    <a href="#" className="policy-1">Terms</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Cookies</a>
+                <div className="flex gap-6 flex-wrap">
+                    <a href="#" className="hover:text-orange-500">Terms</a>
+                    <a href="#" className="hover:text-orange-500">Privacy</a>
+                    <a href="#" className="hover:text-orange-500">Cookies</a>
                 </div>
                 
                 
-                <div className="footer-social">
-                    <div className="social-circle1">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                <div className="flex gap-6">
+                    <div className="cursor-pointer hover:text-orange-500 ">
+                        <i class="fa-brands fa-linkedin-in "></i>
                     </div>
-                    <div className="social-circle2">
+                    <div className="cursor-pointer hover:text-orange-500 ">
                         <i class="fa-brands fa-instagram"></i>
                     </div>
 
-                    <div className="social-circle3">
+                    <div className="cursor-pointer hover:text-orange-500 ">
                         <i class="fa-brands fa-x-twitter"></i>
                     </div>
                 </div>
