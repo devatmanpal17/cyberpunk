@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 
 function PrivacyPolicy() {
 
@@ -229,6 +230,8 @@ function PrivacyPolicy() {
         </div>
 
       </div>
+
+      <Footer/>
 
     </section>
   );
