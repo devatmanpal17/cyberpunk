@@ -1,4 +1,4 @@
-import React from 'react';
+
 import iconDiscover from '../assets/icon-discover.png';
 import iconExplore from '../assets/icon-explore.png';
 import iconConnected from '../assets/icon-connected.png';
