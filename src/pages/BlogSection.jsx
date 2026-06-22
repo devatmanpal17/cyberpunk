@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, ChevronDown, ArrowUpRight, Moon, ArrowLeft } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import loreImg from '../assets/lore.png';
 import techImg from '../assets/tech.png';
 import artImg from '../assets/art.png';

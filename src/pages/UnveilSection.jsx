@@ -1,4 +1,4 @@
-import React from 'react';
+
 import unveilCharacter from '../assets/unveil-character.png';
 import unveilCardIcon from '../assets/unveil-card-icon.png';
 

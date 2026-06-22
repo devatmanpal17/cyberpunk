@@ -1,8 +1,8 @@
  devatman
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState } from "react";
 
-// Cyberpunk Sections
+
+
 import HeroSection from "./pages/HeroSection";
 import GreetSection from "./pages/GreetSection";
 import UnveilSection from "./pages/UnveilSection";
@@ -10,8 +10,6 @@ import DiveSection from "./pages/DiveSection";
 import BlogSection from "./pages/BlogSection";
 
 function Home() {
-  const [showCookies, setShowCookies] = useState(false);
-
   return (
     <div className="bg-[#050505] text-white min-h-screen">
       <HeroSection />
